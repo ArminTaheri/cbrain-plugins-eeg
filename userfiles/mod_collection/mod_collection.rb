@@ -20,7 +20,7 @@
 #
 
 
-class ModCollection < FileCollection
+class MODCollection < FileCollection
   Revision_info=CbrainFileRevision[__FILE__] #:nodoc:
 
   has_viewer :name => "MOD Viewer", :partial => :mod_viewer
